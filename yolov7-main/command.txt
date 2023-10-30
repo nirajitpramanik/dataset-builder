@@ -1,0 +1,5 @@
+Training:
+python train.py --workers 1 --device 0 --batch-size 4 --epochs 100 --img 640 640 --data data/custom_data.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-custom.yaml --name yolov7-custom_2 --weights yolov7.py
+
+Detecting:
+python detect.py --weights yolov7_custom.pt --conf 0.5 --img-size 640 --source data\test\images\Image_17.jpeg --view-img --no-trace

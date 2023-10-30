@@ -1,0 +1,12 @@
+__pycache__
+env/
+venv/
+runs/detect/
+datasets/
+
+yolov7-main/runs/detect
+yolov7-main/runs/train
+
+yolov7-main/data/test
+yolov7-main/data/train
+yolov7-main/data/val
