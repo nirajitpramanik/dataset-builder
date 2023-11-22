@@ -3,6 +3,7 @@ env/
 venv/
 runs/detect/
 datasets/
+temp/
 
 yolov7-main/runs/detect
 yolov7-main/runs/train
